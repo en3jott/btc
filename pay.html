@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="document" />
+    <meta name="keywords" content="" />
+
+    <link
+      rel="shortcut icon"
+      href="img/favicons/favicon.svg"
+      type="image/svg+xml"
+    />
+    <link
+      rel="shortcut icon"
+      href="img/favicons/favicon.webp"
+      type="image/webp"
+    />
+    <link
+      rel="shortcut icon"
+      href="img/favicons/favicon.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="css/libs.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+
+    <title>VIBE RP | Pay</title>
+  </head>
+  <body>
+    <!-- include header -->
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <nav class="nav">
+            <div class="logo">
+              <a class="logo-link" href="#">
+                <img class="logo-link__img" src="img/logo.png" alt="logo" />
+              </a>
+            </div>
+            <div class="menu">
+              <ul class="menu-list">
+                <li class="menu-list__item active">
+                  <a class="menu-list__link" href="#">Главная</a>
+                </li>
+                <li class="menu-list__item">
+                  <a class="menu-list__link" href="#">Форум</a>
+                </li>
+                <li class="menu-list__item">
+                  <a class="menu-list__link" href="#">О проекте</a>
+                </li>
+                <li class="menu-list__item">
+                  <a class="menu-list__link" href="#">Новости</a>
+                </li>
+                <li class="menu-list__item">
+                  <a class="menu-list__link" href="#">Контакты</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <a class="header-btn" href="#">
+            <p class="button-pay">Пополнить счет</p>
+          </a>
+          <div class="burger">
+            <div class="burger-item burger-item-top"></div>
+            <div class="burger-item burger-item-bottom"></div>
+          </div>
+          <div class="burger-menu">
+            <ul class="burger-menu-list">
+              <li class="burger-menu-list__item active">
+                <a class="burger-menu-list__link" href="#">Главная</a>
+              </li>
+              <li class="burger-menu-list__item">
+                <a class="burger-menu-list__link" href="#">Форум</a>
+              </li>
+              <li class="burger-menu-list__item">
+                <a class="burger-menu-list__link" href="#">О проекте</a>
+              </li>
+              <li class="burger-menu-list__item">
+                <a class="burger-menu-list__link" href="#">Новости</a>
+              </li>
+              <li class="burger-menu-list__item">
+                <a class="burger-menu-list__link" href="#">Контакты</a>
+              </li>
+            </ul>
+            <a class="burger-menu-btn" href="#">
+              <p class="burger-menu-text">Пополнить счет</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="pay">
+        <div class="pay-item-blue"></div>
+        <div class="pay-item-yellow"></div>
+        <img class="pay-item-img" src="img/pay/pay-bg.png" alt="bg" />
+        <div class="container-sm">
+          <div class="pay__inner">
+            <h1 class="pay__title title">ПОПОЛНЕНИЕ СЧЕТА</h1>
+            <p class="pay__subtitle subtitle">
+              Введите данные ниже и пополните счет удобным для вас способом
+            </p>
+
+            <form class="form" action="#">
+              <div class="form-input__box">
+                <img
+                  class="form-input__icon"
+                  src="img/pay/nickname.png"
+                  alt=""
+                />
+                <input
+                  class="form-input form-input__nick"
+                  type="text"
+                  placeholder="Ваш ник"
+                />
+              </div>
+              <div class="form-input__box">
+                <img class="form-input__icon" src="img/pay/sum.png" alt="" />
+                <input
+                  class="form-input form-input__sum"
+                  type="text"
+                  placeholder="Сумма"
+                />
+              </div>
+              <div class="form-select">
+                <img class="form-input__icon" src="img/pay/cart.png" alt="" />
+                <select name="" id="">
+                  <option value="0">Платежная система</option>
+                  <option value="1">Система оплаты 1</option>
+                  <option value="2">Система оплаты 2</option>
+                  <option value="3">Система оплаты 3</option>
+                </select>
+              </div>
+              <div class="form-condition">
+                <input class="form-checkbox" type="checkbox" name="" id="if" />
+                <label class="form-label" for="if">
+                  Согласен с
+                  <a class="form-link text-underline" href="#"
+                    >условиями оферты</a
+                  >
+                </label>
+              </div>
+              <div class="pay__form-price">
+                <div class="pay__form-price-text">К оплате</div>
+                <div class="pay__form-price-numb">500 RUB</div>
+              </div>
+              <button class="pay__form-btn btn" type="submit">
+                Перейти к оплате
+              </button>
+            </form>
+
+            <div class="pay__banner">
+              <h5 class="pay__banner-title">
+                <span class="text-orange">+25% </span>к сумме
+                <span class="text-blue">пополнения</span>
+              </h5>
+              <p class="pay__banner-text">
+                Начислим вам +25% к вашей сумме пополнения при
+                <span class="text-underline">оплате криптовалютой</span>
+              </p>
+              <img
+                class="pay__banner-img"
+                src="img/pay/pay-banner.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <a href="#up" class="to-top">
+        <img src="../img/arrow-up.png" alt="" />
+      </a>
+    </main>
+    <!-- include footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__box">
+            <div class="logo">
+              <a class="logo-link" href="#">
+                <img class="logo-link__img" src="img/logo.png" alt="logo" />
+              </a>
+            </div>
+            <div class="footer__menu">
+              <ul class="footer-list">
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">Главная</a>
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">Форум</a>
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">О проекте</a>
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">Новости</a>
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">Контакты</a>
+                </li>
+                <li class="footer-list__item">
+                  <a class="footer-list__link" href="#">Пополнить счет</a>
+                </li>
+              </ul>
+              <div class="footer-links">
+                <a class="footer-links__item" href="#"
+                  >Политика конфиденциальности</a
+                >
+                <a class="footer-links__item" href="#"
+                  >Пользовательское соглашение</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="footer-social">
+            <a class="footer-social__item item-vk" href="#">
+              <svg class="social-icon">
+                <use xlink:href="img/svg/sprite.svg#vk"></use>
+              </svg>
+            </a>
+            <a class="footer-social__item item-discord" href="#">
+              <svg class="social-icon">
+                <use xlink:href="img/svg/sprite.svg#discord"></use>
+              </svg>
+            </a>
+            <a class="footer-social__item item-telegram" href="#">
+              <svg class="social-icon">
+                <use xlink:href="img/svg/sprite.svg#telegram"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- include scripts -->
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
